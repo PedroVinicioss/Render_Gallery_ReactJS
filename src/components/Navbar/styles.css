@@ -1,9 +1,24 @@
 /* Navbar.css */
-nav {
-    background-color: #333;
-    padding: 1rem;
+  nav {
+      background-color: #000;
+      padding: 1rem;
+      align-items: center;
+      justify-content: space-between;
+      display: flex;
+    }
+    
+  .logo img{
+      width: 200px;
   }
-  
+
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+
   nav ul {
     list-style-type: none;
     margin: 0;
@@ -15,8 +30,12 @@ nav {
     margin-right: 1rem;
   }
   
-  nav a {
-    color: white;
+  .NavItens {
+    padding: 10px 10px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
     text-decoration: none;
   }
   
