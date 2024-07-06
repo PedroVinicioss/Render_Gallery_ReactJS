@@ -14,7 +14,7 @@
   ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 15px;
     margin: 0;
     padding: 0;
   }
@@ -40,6 +40,8 @@
   }
   
   nav a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #fff;
+    transition: .3s all ease;
   }
   

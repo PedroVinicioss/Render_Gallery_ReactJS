@@ -1,0 +1,21 @@
+.category-image {
+  width: 100%;
+}
+
+.category-card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden; 
+  }
+  
+  .category-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, filter 0.3s ease; 
+    filter: grayscale(100%); 
+  }
+  
+  .category-link:hover .category-image {
+    transform: scale(1.02); 
+    filter: grayscale(0%); 
+  }

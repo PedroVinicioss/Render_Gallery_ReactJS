@@ -1,23 +1,27 @@
-/* ButtonSingIn.css */
+/* ButtonSignIn.css */
 
 .button-container {
-  background-color: #000;
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  color: aqua;
-  text-decoration: none;
+    background-color: #000;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    font-size: 18px;
+  }
+  
+  .button-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    font-family: 'icomoon';  
 }
-
-.button-link {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 16px;
-  font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-.button-link:hover {
-  text-decoration: none;
-  color: aqua;
-}
+  
+  .button-link:hover {
+    color: #fff;
+    transition: .3s all ease;
+  }
+  
