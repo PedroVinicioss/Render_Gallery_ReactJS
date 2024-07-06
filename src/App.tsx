@@ -2,6 +2,7 @@ import { BrowserRouter } from "react-router-dom"
 import { AppRoutes } from "./routes"
 import { Navbar } from "./components/Navbar"
 import './App.css'
+import { Footer } from "./components/Footer"
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <AppRoutes />
+        <Footer />
       </BrowserRouter>
     </>
   )
